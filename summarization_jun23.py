@@ -6,7 +6,6 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import AIMessage, HumanMessage, SystemMessage #prompt template
 import os
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-7t2nM13OJuyLyhqssJRIT3BlbkFJtR5SpLlBOJQczJMMScAj"
 api_key = os.getenv("OPENAI_API_KEY")
 
 llm = ChatOpenAI(model_name='gpt-3.5-turbo',
