@@ -5,8 +5,7 @@ text_content = st.text_area("Paste the text content here:", height=150)
 from langchain_community.chat_models import ChatOpenAI
 from langchain.schema import AIMessage, HumanMessage, SystemMessage #prompt template
 import os
-
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 
 llm = ChatOpenAI(model_name='gpt-3.5-turbo',
                 temperature=0, 
