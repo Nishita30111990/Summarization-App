@@ -1,5 +1,4 @@
 import streamlit as st # type: ignore
-!pip install PyPdf
 st.title("Summarization Application")
 text_content = st.text_area("Paste the text content here:", height=150)
 
