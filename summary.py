@@ -7,7 +7,7 @@ from langchain.schema import AIMessage, HumanMessage, SystemMessage # type: igno
 import os
 
 
-os.environ["OPENAI_API_KEY"] =  "sk-proj-mg6UDhtPliupAJMwsTVaT3BlbkFJOG1QZZg1ppAllgi2XOxk"
+os.environ["OPENAI_API_KEY"] =  ""
 api_key = os.getenv("OPENAI_API_KEY")
 
 
